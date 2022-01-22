@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('http://fonts.cdnfonts.com/css/murray-hill');
 
 
 #div_topo{
@@ -13,7 +15,7 @@
 
 @media screen and (max-width: 600px) {
  	#div_topo{
-		min-height: 50vh;
+		min-height: 45vh;
 	}
 }
 
@@ -125,7 +127,7 @@
   width: 48px;
   height: 48px;
   border-radius: 30px;
-  background-color: #cb60b3;
+  background-color: #6b72ff;
   border: none;
   box-shadow: 0 1px 5px rgba(0,0,0,.4);
   font-size: 24px;
@@ -137,11 +139,13 @@
 }
 
 .fab button.main{
+    border: none;
+
   position: absolute;
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background-color: #5b19b7;
+  background-color: #6b72ff;
   right: 0;
   bottom: 0;
   z-index: 20;
@@ -155,31 +159,14 @@
 
 
 
-.fab button.main:active,
-.fab button.main:focus{
-  outline: none;
-  background-color: #7716ff;
-  box-shadow: 0 3px 8px rgba(0,0,0,.5);
- }
- 
-.fab button.main:active:before,
-.fab button.main:focus:before{
-  content: '↑';
+.fonte{
+  font-family: 'Dongle', sans-serif;
+  font-size: 30px;
 }
 
-.fab button.main:active + ul,
-.fab button.main:focus + ul{
-  bottom: 70px;
-}
 
-.fab button.main:active + ul li,
-.fab button.main:focus + ul li{
-  margin-bottom: 10px;
-  opacity: 1;
+.fonte_rodape{
+font-family: 'Murray Hill', sans-serif;
+font-family: 'MurrayHill Bd BT', sans-serif;
+font-size: 30px;
 }
-
-.fab button.main:active + ul li:hover label,
-.fab button.main:focus + ul li:hover label{
-  opacity: 1;
-}
-
