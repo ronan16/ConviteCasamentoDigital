@@ -168,5 +168,18 @@
 .fonte_rodape{
 font-family: 'Murray Hill', sans-serif;
 font-family: 'MurrayHill Bd BT', sans-serif;
-font-size: 30px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .fonte_rodape{
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (min-width: 600px) {
+  .fonte_rodape{
+    font-size: 30px;
+  }
 }
