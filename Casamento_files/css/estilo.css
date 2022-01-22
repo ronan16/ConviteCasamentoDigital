@@ -1,0 +1,93 @@
+
+
+#div_topo{
+	background-position: 50% 50%; 
+	background-size: contain; 
+	background-repeat: no-repeat; 
+	background-image: url("../img/noivos.png"); 
+	visibility: visible; 
+	transform: translate3d(0px, 0.0600037px, 0px);
+	min-height: 40vh;
+}
+
+@media screen and (max-width: 600px) {
+ 	#div_topo{
+		min-height: 40vh;
+	}
+}
+
+
+@media screen and (min-width: 600px) {
+ 	#div_topo{
+		min-height: 70vh;
+	}
+}
+
+.div_80{
+	height: 80%;
+}
+
+.div_20{
+	height: 20%;
+}
+
+
+.botao_redondo {
+  cursor: pointer;
+  width: 48px;
+  height: 48px;
+  border: none;
+  box-shadow: 0 1px 5px rgba(107,114,255,.4);
+  font-size: 24px;
+  color: #232323;
+    
+  -webkit-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  transition: .2s ease-out;
+
+}
+
+.botao_principal{
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+  /*background-color: #6b72ff ;*/
+  z-index: 20;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.icone{
+    font-size: 25px;
+
+}
+
+.sessao_diamante{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 70vh; 
+	background-repeat: no-repeat; 
+	background-image: url("../img/diamante.png");
+	opacity: 0.1;
+}
+
+.fundo_azul{
+	background-color: rgba(188,238,255, 0.3);
+}
+
+.cor_azul{
+	color: #6b72ff;
+}
+
+.imagem_icone{
+	width: 35%;
+	height: 35%;
+}
